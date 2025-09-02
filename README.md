@@ -46,9 +46,6 @@ GitVote 是由 CNCF（云原生计算基金会）开发的自动化投票工具�
 
 ```yaml
 # 配置文件示例
-automation:
-  enabled: false  # 是否启用自动投票
-
 profiles:
   default:
     duration: 2w              # 投票持续时间（2周）
@@ -76,10 +73,6 @@ profiles:
 ```
 /vote
 ```
-
-**可选参数**：
-- `/vote profile=custom`：使用指定的配置文件
-- `/vote duration=1w`：自定义投票时长
 
 #### 参与投票
 
